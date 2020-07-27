@@ -20,8 +20,8 @@ namespace _24HourProject.Models
         [ForeignKey(nameof(PostingId))]
         public virtual Posting Posting { get; set; }
         [Required]
-        public string Name { get; set; }
-        [ForeignKey(nameof(Name))]
+        public Guid OwnerId { get; set; }
+        [ForeignKey(nameof(OwnerId))]
         public virtual User Author { get; set; }
     }
 }

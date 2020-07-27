@@ -306,6 +306,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\24HourProject-Services\24HourProject-Services.csproj">
+      <Project>{84cf6f6d-1d3a-483b-88d3-4314dfac75f1}</Project>
+      <Name>24HourProject-Services</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourProject.Data\24HourProject.Data.csproj">
+      <Project>{afe6c667-b0bc-4b0e-aee0-afeb1d3c6f29}</Project>
+      <Name>24HourProject.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\24HourProject.Models\24HourProject.Models.csproj">
+      <Project>{c345806f-2b2e-4966-9a29-d0b0e752b0dd}</Project>
+      <Name>24HourProject.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
