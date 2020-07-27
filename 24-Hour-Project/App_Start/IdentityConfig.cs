@@ -4,6 +4,7 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using _24_Hour_Project.Models;
+using _24HourProject.Data;
 
 namespace _24_Hour_Project
 {
