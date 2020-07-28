@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace _24HourProject.Models
 {
-    class ReplyDetail
+    public class ReplyDetail
     {
         [Display(Name = "Comment ID")]
         public int CommentId { get; set; }
@@ -15,6 +15,6 @@ namespace _24HourProject.Models
         public int PostingId { get; set; }
 
         [Display(Name = "Reply")]
-        public string ReplyComment { get; set; }
+        public string Text { get; set; }
     }
 }

@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace _24HourProject.Models
 {
-    class ReplyEdit
+    public class ReplyEdit
     {
         [Display(Name = "Reply")]
-        public string ReplyComment { get; set; }
+        public string Text { get; set; }
     }
 }
