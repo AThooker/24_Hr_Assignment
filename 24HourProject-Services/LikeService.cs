@@ -22,7 +22,7 @@ namespace _24HourProject.Services
             var entity =
                 new Like()
                 {
-                    OwnerId = _userId,
+                    //OwnerId = _userId,
                     LikeId = model.LikeId,
                     PostingId = model.PostingId,
                 };
@@ -40,7 +40,7 @@ namespace _24HourProject.Services
                 var query =
                     ctx
                         .Likes
-                        .Where(e => e.OwnerId == _userId)
+                        //.Where(e => e.LikeId == _likeId)
                         .Select(
                             e =>
                                 new LikeListItem
@@ -61,7 +61,7 @@ namespace _24HourProject.Services
                 var entity =
                     ctx
                         .Likes
-                        .Single(e => e.LikeId == LikeId && e.OwnerId == _userId);
+                        .Single(e => e.LikeId == LikeId);
 
                 ctx.Likes.Remove(entity);
 

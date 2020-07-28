@@ -56,3 +56,11 @@ C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourPr
 C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\24HourProject.Data.csproj.CopyComplete
 C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\24HourProject.Data.dll
 C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\24HourProject.Data.pdb
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.InitialCreate.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\24HourProject.Data.csproj.GenerateResource.cache
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.FirstMigration.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.SecondMigration.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.ThirdMigration.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.FourthMigration.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.FifthMigration.resources
+C:\Users\13173\Desktop\ElevenFiftyProjectsSD\BlueBadge\24_Hr_Assignment\24HourProject.Data\obj\Debug\_24HourProject.Data.Migrations.SixthMigration.resources

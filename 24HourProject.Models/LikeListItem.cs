@@ -10,6 +10,5 @@ namespace _24HourProject.Models
     {
         public int LikeId { get; set; }
         public int PostingId { get; set; }
-        public Guid OwnerId { get; set; }
     }
 }

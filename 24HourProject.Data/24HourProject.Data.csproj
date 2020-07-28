@@ -78,6 +78,35 @@
     <Compile Include="Comment.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Like.cs" />
+    <Compile Include="Migrations\202007272156343_InitialCreate.cs" />
+    <Compile Include="Migrations\202007272156343_InitialCreate.Designer.cs">
+      <DependentUpon>202007272156343_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281519549_FirstMigration.cs" />
+    <Compile Include="Migrations\202007281519549_FirstMigration.Designer.cs">
+      <DependentUpon>202007281519549_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281611425_SecondMigration.cs" />
+    <Compile Include="Migrations\202007281611425_SecondMigration.Designer.cs">
+      <DependentUpon>202007281611425_SecondMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281622303_ThirdMigration.cs" />
+    <Compile Include="Migrations\202007281622303_ThirdMigration.Designer.cs">
+      <DependentUpon>202007281622303_ThirdMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281630498_FourthMigration.cs" />
+    <Compile Include="Migrations\202007281630498_FourthMigration.Designer.cs">
+      <DependentUpon>202007281630498_FourthMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281634262_FifthMigration.cs" />
+    <Compile Include="Migrations\202007281634262_FifthMigration.Designer.cs">
+      <DependentUpon>202007281634262_FifthMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202007281646370_SixthMigration.cs" />
+    <Compile Include="Migrations\202007281646370_SixthMigration.Designer.cs">
+      <DependentUpon>202007281646370_SixthMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Posting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reply.cs" />
@@ -86,6 +115,29 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\202007272156343_InitialCreate.resx">
+      <DependentUpon>202007272156343_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281519549_FirstMigration.resx">
+      <DependentUpon>202007281519549_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281611425_SecondMigration.resx">
+      <DependentUpon>202007281611425_SecondMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281622303_ThirdMigration.resx">
+      <DependentUpon>202007281622303_ThirdMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281630498_FourthMigration.resx">
+      <DependentUpon>202007281630498_FourthMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281634262_FifthMigration.resx">
+      <DependentUpon>202007281634262_FifthMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202007281646370_SixthMigration.resx">
+      <DependentUpon>202007281646370_SixthMigration.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
