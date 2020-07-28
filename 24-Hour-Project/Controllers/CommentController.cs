@@ -14,21 +14,14 @@ namespace _24_Hour_Project.Controllers
     public class CommentController : ApiController
     {
         //READ
-        public IHttpActionResult Get()
+        public IHttpActionResult GetComment()
         {
             CommentService commentService = CreateCommentService();
             var comments = commentService.GetComments();
             return Ok(comments);
         }
-        //READ
-        public IHttpActionResult Get(int id)
-        {
-            CommentService commentService = CreateCommentService();
-            var comment = commentService = CreateCommentService();
-            return Ok(comment);
-        }
         //CREATE
-        public IHttpActionResult Post(CommentCreate comment)
+        public IHttpActionResult PostComment(CommentCreate comment)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -46,29 +39,6 @@ namespace _24_Hour_Project.Controllers
             var userId = Guid.Parse(User.Identity.GetUserId());
             var noteService = new CommentService(userId);
             return noteService;
-        }
-        //UPDATE
-        public IHttpActionResult Put(CommentEdit comment)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-
-            var service = CreateCommentService();
-
-            if (!service.UpdateComment(comment))
-                return InternalServerError();
-
-            return Ok();
-        }
-        //DELETE
-        public IHttpActionResult Delete(int id)
-        {
-            var service = CreateCommentService();
-
-            if (!service.DeleteComment(id))
-                return InternalServerError();
-
-            return Ok();
         }
     }
 }
