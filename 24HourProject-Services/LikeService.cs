@@ -33,6 +33,26 @@ namespace _24HourProject.Services
                 return ctx.SaveChanges() == 1;
             }
         }
+        public IEnumerable<LikeListItem> GetLikes()
+        {
+            using (var ctx = new ApplicationDbContext())
+            {
+                var query =
+                    ctx
+                        .Likes
+                        .Where(e => e.OwnerId == _userId)
+                        .Select(
+                            e =>
+                                new LikeListItem
+                                {
+                                    LikeId = e.LikeId,
+                                    PostingId = e.PostingId,
+                                }
+                        );
+
+                return query.ToArray();
+            }
+        }
 
         public bool DeleteLike(int LikeId)
         {
