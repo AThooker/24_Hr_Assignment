@@ -10,6 +10,5 @@ namespace _24HourProject.Models
     {
         public int CommentId { get; set; }
         public string Text { get; set; }
-        public Guid OwnerId { get; set; }
     }
 }

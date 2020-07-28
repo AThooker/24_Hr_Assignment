@@ -18,10 +18,8 @@ namespace _24HourProject.Services
         public bool CreateComment(CommentCreate model)
         {
             var entity = new Comment()
-            {
-                OwnerId = _userId,
+            { 
                 Text = model.Text,
-                PostingId = model.PostingId
             };
 
             using (var ctx = new ApplicationDbContext())
@@ -44,7 +42,6 @@ namespace _24HourProject.Services
                                 {
                                     CommentId = e.CommentId,
                                     Text = e.Text,
-                                    CreatedUtc = e.CreatedUtc
                                 }
                         );
 

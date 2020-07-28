@@ -15,5 +15,9 @@ namespace _24HourProject.Models
         public int LikeId { get; set; }
         [Required]
         public int PostingId { get; set; }
+        [ForeignKey(nameof(PostingId))]
+        public virtual Posting Posting { get; set; }
+        [Required]
+        public Guid OwnerId { get; set; }
     }
 }
