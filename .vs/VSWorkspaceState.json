@@ -1,8 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\24-Hour-Project"
+    "\\24-Hour-Project",
+    "\\24-Hour-Project\\App_Start",
+    "\\24-Hour-Project\\Controllers",
+    "\\24-Hour-Project\\Providers",
+    "\\24HourProject-Services",
+    "\\24HourProject.Data",
+    "\\24HourProject.Models"
   ],
-  "SelectedNode": "\\24-Hour-Project\\24HourProject.Services",
+  "SelectedNode": "\\24HourProject.Data\\IdentityModels.cs",
   "PreviewInSolutionExplorer": false
 }
