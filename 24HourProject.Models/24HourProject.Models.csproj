@@ -47,6 +47,9 @@
     <Compile Include="CommentEdit.cs" />
     <Compile Include="CommentListItem.cs" />
     <Compile Include="CreatePost.cs" />
+    <Compile Include="LikeCreate.cs" />
+    <Compile Include="LikeDetail.cs" />
+    <Compile Include="LikeListItem.cs" />
     <Compile Include="PostDetail.cs" />
     <Compile Include="PostEdit.cs" />
     <Compile Include="PostListItem.cs" />
@@ -55,6 +58,12 @@
     <Compile Include="ReplyDetail.cs" />
     <Compile Include="ReplyEdit.cs" />
     <Compile Include="ReplyListItem.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\24HourProject.Data\24HourProject.Data.csproj">
+      <Project>{AFE6C667-B0BC-4B0E-AEE0-AFEB1D3C6F29}</Project>
+      <Name>24HourProject.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
