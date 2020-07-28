@@ -10,6 +10,6 @@ namespace _24HourProject.Models
     class ReplyEdit
     {
         [Display(Name = "Reply")]
-        public int ReplyComment { get; set; }
+        public string ReplyComment { get; set; }
     }
 }

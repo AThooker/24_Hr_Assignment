@@ -10,6 +10,6 @@ namespace _24HourProject.Models
     {
         public int CommentId { get; set; }
         public int PostingId { get; set; }
-        public int ReplyComment { get; set; }
+        public string ReplyComment { get; set; }
     }
 }

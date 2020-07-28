@@ -15,6 +15,6 @@ namespace _24HourProject.Models
         public int PostingId { get; set; }
 
         [Display(Name = "Reply")]
-        public int ReplyComment { get; set; }
+        public string ReplyComment { get; set; }
     }
 }
