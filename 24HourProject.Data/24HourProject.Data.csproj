@@ -78,31 +78,6 @@
     <Compile Include="Comment.cs" />
     <Compile Include="IdentityModels.cs" />
     <Compile Include="Like.cs" />
-    <Compile Include="Migrations\202007281442536_InitialCreate.cs" />
-    <Compile Include="Migrations\202007281442536_InitialCreate.Designer.cs">
-      <DependentUpon>202007281442536_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202007281507343_FirstMigration.cs" />
-    <Compile Include="Migrations\202007281507343_FirstMigration.Designer.cs">
-      <DependentUpon>202007281507343_FirstMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202007281544158_SecondMig.cs" />
-    <Compile Include="Migrations\202007281544158_SecondMig.Designer.cs">
-      <DependentUpon>202007281544158_SecondMig.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202007281603518_thirdmigrate.cs" />
-    <Compile Include="Migrations\202007281603518_thirdmigrate.Designer.cs">
-      <DependentUpon>202007281603518_thirdmigrate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202007281619504_fourth.cs" />
-    <Compile Include="Migrations\202007281619504_fourth.Designer.cs">
-      <DependentUpon>202007281619504_fourth.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202007281629093_number.cs" />
-    <Compile Include="Migrations\202007281629093_number.Designer.cs">
-      <DependentUpon>202007281629093_number.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Posting.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reply.cs" />
@@ -111,26 +86,6 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\202007281442536_InitialCreate.resx">
-      <DependentUpon>202007281442536_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007281507343_FirstMigration.resx">
-      <DependentUpon>202007281507343_FirstMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007281544158_SecondMig.resx">
-      <DependentUpon>202007281544158_SecondMig.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007281603518_thirdmigrate.resx">
-      <DependentUpon>202007281603518_thirdmigrate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007281619504_fourth.resx">
-      <DependentUpon>202007281619504_fourth.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202007281629093_number.resx">
-      <DependentUpon>202007281629093_number.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

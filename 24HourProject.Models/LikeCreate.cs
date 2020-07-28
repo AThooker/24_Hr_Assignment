@@ -19,6 +19,5 @@ namespace _24HourProject.Models
         public virtual Posting Posting { get; set; }
         [Required]
         public Guid OwnerId { get; set; }
-
     }
 }
