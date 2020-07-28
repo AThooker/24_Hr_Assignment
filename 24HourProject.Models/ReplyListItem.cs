@@ -8,5 +8,8 @@ namespace _24HourProject.Models
 {
     class ReplyListItem
     {
+        public int CommentId { get; set; }
+        public int PostingId { get; set; }
+        public string ReplyComment { get; set; }
     }
 }
