@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _24HourProject.Models
 {
-    class LikeListItem
+    public class LikeListItem
     {
         public int LikeId { get; set; }
         public int PostingId { get; set; }
