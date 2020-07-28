@@ -23,5 +23,7 @@ namespace _24HourProject.Models
         public Guid OwnerId { get; set; }
         [ForeignKey(nameof(OwnerId))]
         public virtual User Author { get; set; }
+        [Required]
+        public DateTimeOffset CreatedUtc { get; set; }
     }
 }
